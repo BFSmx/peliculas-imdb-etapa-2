@@ -1,2 +1,2 @@
-# imdb-movies-stage-2
-Imdb Movies App Stage 2
+# imdb-peliculas-etapa-2
+App Imdb Películas Etapa 2
