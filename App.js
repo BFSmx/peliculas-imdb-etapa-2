@@ -15,7 +15,7 @@ const AppTopNavigation = createMaterialTopTabNavigator({
   RecommendedMovies: {
     screen: RecommendedMoviesScreen,
     navigationOptions: {
-      tabBarLabel: "Recommended",
+      tabBarLabel: "Recomendadas",
       tabBarOptions: {
         tabStyle: { backgroundColor: "#fff" },
         labelStyle: { color: "#000" },
@@ -26,7 +26,7 @@ const AppTopNavigation = createMaterialTopTabNavigator({
   PopularMovies: {
     screen: PopularMoviesScreen,
     navigationOptions: {
-      tabBarLabel: "Popular",
+      tabBarLabel: "Populares",
       tabBarOptions: {
         tabStyle: { backgroundColor: "#fff" },
         labelStyle: { color: "#000" },
@@ -49,7 +49,7 @@ const AppStackNavigator = createStackNavigator(
       navigationOptions: {
         headerBackTitle: null,
         headerTintColor: "#fff",
-        headerTitle: "Recommended Movies",
+        headerTitle: "Películas recomendadas",
         headerStyle: {
           backgroundColor: "#d500f9"
         },
